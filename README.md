@@ -1,6 +1,6 @@
 # Spring Microservices Blueprint
 
-🚀 Production-ready Spring Boot microservices with complete ecosystem: PostgreSQL, Kafka+Zookeeper, Elasticsearch+Kibana+Fluentd, JWT auth. One command `docker compose up -d --build` launches 10+ pre-configured services!
+🚀 Production-ready Spring Boot microservices with complete ecosystem: PostgreSQL, Kafka+Zookeeper, Elasticsearch+Kibana+Fluentd, JWT auth. Two simple commands launch 10+ pre-configured services!
 
 Complete learning platform with comprehensive guides for mastering microservices architecture, event-driven communication, and distributed systems patterns.
 
@@ -27,6 +27,20 @@ spring-microservices-blueprint/
 - **Code Reusability**: Shared DTOs and utilities in commons module
 - **Consistent Versioning**: All modules use same version from parent
 - **Simplified Build**: Single `mvn clean install` builds everything
+
+## 🔧 Prerequisites
+
+**Required:**
+- **Java 17+**
+- **Maven 3.9+**
+- **Docker Desktop**
+
+**Verify installation:**
+```bash
+java -version    # Should show Java 17+
+mvn -version     # Should show Maven 3.9+
+docker --version # Should show Docker 20.10+
+```
 
 ## 🚀 Quick Start (5 Minutes)
 
@@ -270,22 +284,7 @@ docker compose down -v && mvn clean install -DskipTests && docker compose up -d 
 3. **Troubleshoot:** [09-Troubleshooting.md](docs/09-Troubleshooting.md)
 4. **Extend:** Add new services and features
 
-## 🔧 Prerequisites
 
-### Required
-- **Docker** 20.10+ and **Docker Compose** 2.0+
-- **Java 17** or higher
-- **Maven 3.9+**
-
-### Optional (for advanced development)
-- **IDE** (IntelliJ IDEA, VS Code, Eclipse)
-- **Postman** for API testing
-- **Git** for version control
-
-### System Requirements
-- **RAM:** 8GB minimum, 16GB recommended
-- **Disk:** 10GB free space
-- **CPU:** 4 cores recommended
 
 ## 🚨 Common Issues & Quick Fixes
 
