@@ -182,6 +182,9 @@ curl "http://localhost:8089/api/product/search?name=Sample&page=0&size=5"
 ```
 
 ### 3. Monitor the System
+- **API Documentation:** 
+  - http://localhost:8088/swagger-ui.html (Account Service)
+  - http://localhost:8089/swagger-ui.html (Product Service)
 - **View Logs:** http://localhost:5601 (elastic/elastic)
 - **Monitor Kafka:** http://localhost:8085
 - **Check Health:** 
@@ -347,5 +350,7 @@ This project is for **educational purposes**. Feel free to use, modify, and lear
 3. **Get Help:** Check [09-Troubleshooting.md](docs/09-Troubleshooting.md)
 
 **Happy Learning! 🚀**
+
+⭐ **Found this helpful?** Give it a star to support the project!
 
 *Built with ❤️ for the microservices learning community*
