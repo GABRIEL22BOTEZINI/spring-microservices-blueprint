@@ -1,6 +1,6 @@
 # Spring Microservices Blueprint
 
-🚀 **Production-ready Spring Boot microservices blueprint with Kafka, JWT, ELK stack, and Docker**
+🚀 Production-ready Spring Boot microservices with complete ecosystem: PostgreSQL, Kafka+Zookeeper, Elasticsearch+Kibana+Fluentd, JWT auth. One command `docker compose up -d --build` launches 10+ pre-configured services!
 
 Complete learning platform with comprehensive guides for mastering microservices architecture, event-driven communication, and distributed systems patterns.
 
