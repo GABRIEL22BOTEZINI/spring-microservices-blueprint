@@ -1,8 +1,8 @@
 # Spring Microservices Blueprint
 
-🚀 Production-ready Spring Boot microservices with complete ecosystem: PostgreSQL, Kafka+Zookeeper, Elasticsearch+Kibana+Fluentd, JWT auth. Two simple commands launch 10+ pre-configured services!
+🚀 Java Spring Boot microservices with complete ecosystem: PostgreSQL, Kafka+Zookeeper, Elasticsearch+Kibana+Fluentd, JWT auth, Swagger. Two simple commands launch 10+ pre-configured services!
 
-Complete learning platform with comprehensive guides for mastering microservices architecture, event-driven communication, and distributed systems patterns.
+This project demonstrates event-driven microservices with request tracing: each request carries a correlation_id across REST calls and Kafka messages, making logging and observability easy.
 
 ## 🏗️ Multi-Module Maven Architecture
 
@@ -26,7 +26,8 @@ spring-microservices-blueprint/
 - **Shared Dependencies**: Common libraries managed in parent POM
 - **Code Reusability**: Shared DTOs and utilities in commons module
 - **Consistent Versioning**: All modules use same version from parent
-- **Simplified Build**: Single `mvn clean install` builds everything
+- **Easy Setup & Launch**: Only two commands needed to build and start all services
+- **Simplified Development**: Debugging, logging, and monitoring pre-configured for convenience
 
 ## 🔧 Prerequisites
 
@@ -109,6 +110,8 @@ If both return data, you're ready! 🎉
 - **Centralized Logging** - ELK Stack for log aggregation
 - **Distributed Tracing** - Correlation IDs across service calls
 - **Health Monitoring** - Service health checks and metrics
+- **Distributed Tracing & Logging** - request body, response body, and Kafka messages carry correlation_id, making it easy to trace interactions across services.
+
 
 ### Infrastructure & DevOps
 - **Multi-Module Architecture** - Maven parent-child module structure
