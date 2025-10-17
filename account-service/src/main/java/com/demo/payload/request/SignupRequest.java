@@ -6,6 +6,7 @@ import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.util.Set;
 
@@ -31,6 +32,7 @@ public class SignupRequest {
 
   @NotBlank(message = "Password is required")
   @Size(min = 6, max = 40, message = "Password must be between 6 and 40 characters")
+  @ToString.Exclude
   private String password;
 
 }
